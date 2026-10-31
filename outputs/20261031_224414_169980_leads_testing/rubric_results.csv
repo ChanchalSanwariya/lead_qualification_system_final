@@ -1,0 +1,21 @@
+lead_id,name,company,company_size,industry,source,last_interaction_date,size_rating,source_rating,recency_rating,review_reasons,data_status
+LEAD_0001,Test_MissingSize,Test Inc,,SaaS,Inbound demo request,2024-01-20,,10.0,1.0,Missing or invalid company size,needs_review
+LEAD_0002,Test_VeryLargeEnterprise,Global Fortune 500 Corp,50000.0,Enterprise Software,Inbound demo request,2024-01-20,9.0,10.0,1.0,,ready_for_industry_assessment
+LEAD_0003,Test_Solo,John Doe Consulting,1.0,Consulting,LinkedIn outreach,2024-01-20,4.0,4.0,1.0,,ready_for_industry_assessment
+LEAD_0004,Test_StaleInteraction,Old Company Inc,100.0,Manufacturing,Sales call,2022-06-15,8.0,9.0,1.0,,ready_for_industry_assessment
+LEAD_0005,Test_RecentEngagement,Hot Lead Corp,200.0,SaaS,Inbound demo request,2024-01-20,8.0,10.0,1.0,,ready_for_industry_assessment
+LEAD_0006,Test_MissingDate,Mystery Co,150.0,Technology,,,8.0,,,"Missing or unrecognized source; Missing, invalid or future interaction date",needs_review
+LEAD_0007,Test_UnknownIndustry,Mysterious Startup,15.0,Unknown Sector,Referral,2024-01-19,6.0,8.0,1.0,,ready_for_industry_assessment
+LEAD_0008,Test_VeryRecentSignup,Brand New Startup,2.0,SaaS,Inbound demo request,2024-01-20,4.0,10.0,1.0,,ready_for_industry_assessment
+LEAD_0009,Test_MultipleInteractions,Active Company,500.0,Finance,Inbound demo request,2024-01-20,8.0,10.0,1.0,,ready_for_industry_assessment
+LEAD_0010,Test_NoSourceInfo,Source Unknown Corp,300.0,Retail,Unknown Source,2024-01-18,8.0,,1.0,Missing or unrecognized source,needs_review
+LEAD_0011,Test_HighValueMatch,Perfect Fit Enterprise,2000.0,SaaS,Inbound demo request,2024-01-20,10.0,10.0,1.0,,ready_for_industry_assessment
+LEAD_0012,Test_LowValueNiche,Niche Small Op,5.0,Agriculture,LinkedIn outreach,2024-01-15,4.0,4.0,1.0,,ready_for_industry_assessment
+LEAD_0013,Test_MissingName,,400.0,Consulting,Sales call,2024-01-19,8.0,9.0,1.0,Missing company,needs_review
+LEAD_0014,Test_NameOnly,James Wilson,,,,,,,,"Missing industry; Missing or invalid company size; Missing or unrecognized source; Missing, invalid or future interaction date",needs_review
+LEAD_0015,Test_PartialData,Tech Partial,,SaaS,,2024-01-20,,,1.0,Missing or invalid company size; Missing or unrecognized source,needs_review
+LEAD_0016,Test_WeekOldInteraction,Week Old Corp,250.0,Logistics,Webinar attendee,2024-01-13,8.0,7.0,1.0,,ready_for_industry_assessment
+LEAD_0017,Test_MidMarketSoft,Mid Market Software,1500.0,SaaS,Content download,2024-01-18,10.0,5.0,1.0,,ready_for_industry_assessment
+LEAD_0018,Test_StartupShutdown,Failed Startup,8.0,SaaS,Referral,2023-05-01,4.0,8.0,1.0,,ready_for_industry_assessment
+LEAD_0019,Test_GovernmentBuyer,Government Tech,3000.0,Government,Sales call,2024-01-17,10.0,9.0,1.0,,ready_for_industry_assessment
+LEAD_0020,Test_SMBAverage,Average SMB Co,120.0,Retail,Inbound demo request,2024-01-19,8.0,10.0,1.0,,ready_for_industry_assessment

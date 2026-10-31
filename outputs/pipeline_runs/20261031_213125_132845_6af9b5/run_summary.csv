@@ -1,0 +1,9 @@
+metric,value
+run_id,20261031_213125_132845_6af9b5
+total_leads,100
+qualified,5
+review,92
+rejected,3
+average_weighted_score,6.43
+outreach_generated,5
+outreach_failed,0

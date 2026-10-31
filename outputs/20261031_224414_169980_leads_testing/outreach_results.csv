@@ -1,0 +1,21 @@
+lead_id,name,company,subject,email_body,generation_status
+LEAD_0011,Test_HighValueMatch,Perfect Fit Enterprise,Quick question about Perfect Fit Enterprise's growth,"Hi [Name],
+
+I noticed Perfect Fit Enterprise is scaling quickly in the SaaS space. Congrats on the growth.
+
+As fellow SaaS founders know, manual processes can slow down expansion. I wanted to reach out because our workflow automation platform helps teams like yours reduce operational overhead and focus on product and customers.
+
+Would you be open to a brief conversation about how we might support your current growth phase?
+
+Best regards,
+[Your Name]",completed
+LEAD_0009,Test_MultipleInteractions,Active Company,Streamlining finance operations at Active Company,"Hi [Name],
+
+Congratulations on the recent activity at Active Company. I saw your presence in the finance sector and wanted to introduce ourselves.
+
+Finance teams often deal with repetitive tasks that pull time away from strategic work. Our workflow automation software is designed to handle those routine processes, freeing up your team for higher-value work.
+
+I'd love to hear a bit about your current priorities and see if there's a fit. Would 15 minutes next week work for a quick chat?
+
+Best,
+[Your Name]",completed

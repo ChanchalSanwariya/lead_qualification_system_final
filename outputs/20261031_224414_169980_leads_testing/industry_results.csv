@@ -1,0 +1,21 @@
+lead_id,industry_rating,reasoning,confidence,needs_review,assessment_status
+LEAD_0001,,Skipped due to data-quality issues.,low,True,skipped
+LEAD_0002,5.0,"Enterprise Software companies typically have complex internal processes and integration needs, making workflow automation plausible but not uniquely compelling without specific operational details.",medium,True,completed
+LEAD_0003,3.0,Consulting is service-oriented with project-based workflows; automation potential exists but is less central to core business operations compared to product or manufacturing firms.,medium,True,completed
+LEAD_0004,10.0,"Manufacturing has well-established automation needs across supply chain, production scheduling, quality control, and inventory management, making it a strong fit for workflow automation software.",high,False,completed
+LEAD_0005,7.0,"SaaS companies internally benefit from workflow automation for customer onboarding, support ticket routing, and billing processes, representing plausible industry use cases.",high,False,completed
+LEAD_0006,,Skipped due to data-quality issues.,low,True,skipped
+LEAD_0007,5.0,Unknown Sector provides no basis for assessing automation fit; rating defaults to unclear/insufficient evidence per guidelines.,low,True,completed
+LEAD_0008,7.0,"SaaS startups typically need automation for rapid scaling, customer onboarding, and internal process efficiency, making workflow automation a strong plausible fit.",high,False,completed
+LEAD_0009,10.0,"Finance sector has rigorous compliance, reporting, and transaction processing needs where workflow automation delivers significant efficiency and risk reduction benefits.",high,False,completed
+LEAD_0010,,Skipped due to data-quality issues.,low,True,skipped
+LEAD_0011,10.0,"SaaS industry directly benefits from workflow automation for product delivery, customer success, and internal ops, representing a strong and specific fit.",high,False,completed
+LEAD_0012,5.0,"Agriculture has some automation potential (supply chain, equipment tracking) but it is niche and less universally applicable compared to manufacturing or finance, making the fit unclear.",medium,True,completed
+LEAD_0013,,Skipped due to data-quality issues.,low,True,skipped
+LEAD_0014,,Skipped due to data-quality issues.,low,True,skipped
+LEAD_0015,,Skipped due to data-quality issues.,low,True,skipped
+LEAD_0016,7.0,"Logistics involves complex routing, shipment tracking, and inventory management where workflow automation can deliver clear operational improvements.",high,False,completed
+LEAD_0017,10.0,"SaaS companies have direct, well-documented needs for workflow automation in customer lifecycle management, making this a strong fit category.",high,False,completed
+LEAD_0018,3.0,"Failed Startup status and SaaS industry; without active operations or growth trajectory, automation fit is limited and speculative.",medium,True,completed
+LEAD_0019,7.0,Government Tech has compliance-heavy processes and legacy system integration needs where workflow automation can improve efficiency and auditability.,high,False,completed
+LEAD_0020,5.0,"Retail SMBs have variable automation needs (inventory, POS, customer data) but limited resources; the fit is plausible but depends on specific operational scale and processes.",medium,True,completed

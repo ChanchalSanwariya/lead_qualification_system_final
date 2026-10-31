@@ -1,0 +1,101 @@
+lead_id,name,company,company_size,industry,source,last_interaction_date,size_rating,source_rating,recency_rating,review_reasons,data_status
+LEAD_0001,Alice Chen,CloudScale AI,50,SaaS,Inbound demo request,2024-01-15,6,10,10,,ready_for_industry_assessment
+LEAD_0002,Bob Rodriguez,TechVentures Inc,8,SaaS,LinkedIn outreach,2024-01-20,4,4,10,,ready_for_industry_assessment
+LEAD_0003,Carol Singh,National Bank Corp,5000,Finance,Content download,2023-12-01,10,5,5,,ready_for_industry_assessment
+LEAD_0004,David Moore,StartupXYZ,3,SaaS,Referral,2024-01-18,4,8,10,,ready_for_industry_assessment
+LEAD_0005,Emma Thompson,RetailWorks Solutions,200,Retail,Inbound demo request,2023-11-10,8,10,5,,ready_for_industry_assessment
+LEAD_0006,Frank Liu,Healthcare Systems Ltd,1200,Healthcare,Sales call,2024-01-12,10,9,8,,ready_for_industry_assessment
+LEAD_0007,Grace Lee,Manufacturing Co,450,Manufacturing,Webinar attendee,2023-10-05,8,7,3,,ready_for_industry_assessment
+LEAD_0008,Henry Park,EdTech Innovations,75,EdTech,Content download,2024-01-14,8,5,10,,ready_for_industry_assessment
+LEAD_0009,Iris Patel,Logistics Global,800,Logistics,LinkedIn outreach,2023-09-20,10,4,3,,ready_for_industry_assessment
+LEAD_0010,Jack White,Digital Marketing Agency,120,Marketing,Inbound demo request,2024-01-19,8,10,10,,ready_for_industry_assessment
+LEAD_0011,Karen Miller,InsurancePro,600,Insurance,Sales call,2023-12-15,10,9,5,,ready_for_industry_assessment
+LEAD_0012,Leon Chen,FinTech Startup,25,FinTech,Referral,2024-01-17,6,8,10,,ready_for_industry_assessment
+LEAD_0013,Maya Desai,Agricultural Tech,45,Agriculture,Content download,2024-01-16,6,5,10,,ready_for_industry_assessment
+LEAD_0014,Nathan Brooks,Enterprise Solutions Corp,3500,Software,Inbound demo request,2024-01-13,10,10,8,,ready_for_industry_assessment
+LEAD_0015,Olivia Garcia,Local Restaurant Group,12,Hospitality,LinkedIn outreach,2023-08-30,6,4,3,,ready_for_industry_assessment
+LEAD_0016,Pamela White,Pharma Research Inc,2200,Pharmaceuticals,Sales call,2023-11-25,10,9,5,,ready_for_industry_assessment
+LEAD_0017,Quinn Matthews,Consulting Firm,180,Consulting,Webinar attendee,2024-01-11,8,7,8,,ready_for_industry_assessment
+LEAD_0018,Rachel Kim,Government Agency,800,Government,Content download,2023-12-10,10,5,5,,ready_for_industry_assessment
+LEAD_0019,Samuel Lee,Cybersecurity Startup,60,Cybersecurity,Referral,2024-01-09,8,8,8,,ready_for_industry_assessment
+LEAD_0020,Tina Patel,Energy Solutions,900,Energy,Inbound demo request,2023-10-18,10,10,3,,ready_for_industry_assessment
+LEAD_0021,Uma Singh,Event Planning Co,35,Events,LinkedIn outreach,2024-01-08,6,4,8,,ready_for_industry_assessment
+LEAD_0022,Victor Moore,Real Estate Platform,250,Real Estate,Sales call,2024-01-06,8,9,8,,ready_for_industry_assessment
+LEAD_0023,Wendy Zhang,Fashion Brand,400,Retail,Content download,2024-01-05,8,5,8,,ready_for_industry_assessment
+LEAD_0024,Xavier Lopez,Data Analytics Firm,110,Analytics,Webinar attendee,2023-12-22,8,7,8,,ready_for_industry_assessment
+LEAD_0025,Yuki Tanaka,Travel Technology,55,Travel,Referral,2024-01-04,8,8,8,,ready_for_industry_assessment
+LEAD_0026,Zara Hassan,Education Institution,600,Education,Inbound demo request,2023-12-05,10,10,5,,ready_for_industry_assessment
+LEAD_0027,Aaron Benjamin,Supply Chain Co,320,Supply Chain,LinkedIn outreach,2024-01-02,8,4,8,,ready_for_industry_assessment
+LEAD_0028,Bella Cross,Legal Services Firm,90,Legal,Sales call,2023-11-30,8,9,5,,ready_for_industry_assessment
+LEAD_0029,Cassandra Jones,Media & Entertainment,150,Media,Content download,2024-01-01,8,5,8,,ready_for_industry_assessment
+LEAD_0030,Derek Johnson,Cloud Infrastructure,200,SaaS,Inbound demo request,2024-01-19,8,10,10,,ready_for_industry_assessment
+LEAD_0031,Ethan Smith,Mobile Development,40,Software,LinkedIn outreach,2024-01-17,6,4,10,,ready_for_industry_assessment
+LEAD_0032,Fiona Murphy,Telecommunications,2500,Telecom,Sales call,2023-11-15,10,9,5,,ready_for_industry_assessment
+LEAD_0033,Gabriella Torres,Beauty & Cosmetics,120,Consumer,Webinar attendee,2024-01-14,8,7,10,,ready_for_industry_assessment
+LEAD_0034,Hassan Khalil,Oil & Gas Corp,8000,Energy,Content download,2023-09-01,9,5,3,,ready_for_industry_assessment
+LEAD_0035,Isabella Romano,Luxury Hotels,350,Hospitality,Referral,2024-01-16,8,8,10,,ready_for_industry_assessment
+LEAD_0036,James Wilson,Property Management,180,Real Estate,Inbound demo request,2024-01-18,8,10,10,,ready_for_industry_assessment
+LEAD_0037,Katherine Lee,Artificial Intelligence Lab,65,AI/ML,LinkedIn outreach,2024-01-13,8,4,8,,ready_for_industry_assessment
+LEAD_0038,Liam O'Connor,Venture Capital Fund,40,Finance,Sales call,2024-01-10,6,9,8,,ready_for_industry_assessment
+LEAD_0039,Mona Patel,Blockchain Startup,22,Cryptocurrency,Referral,2024-01-15,6,8,10,,ready_for_industry_assessment
+LEAD_0040,Nicholas Anderson,Sports Management,85,Sports,Content download,2023-12-20,8,5,5,,ready_for_industry_assessment
+LEAD_0041,Olivia Martinez,Renewable Energy Corp,600,Energy,Inbound demo request,2024-01-12,10,10,8,,ready_for_industry_assessment
+LEAD_0042,Patricia Brown,Biotechnology Research,250,Biotech,LinkedIn outreach,2024-01-09,8,4,8,,ready_for_industry_assessment
+LEAD_0043,Quincy Adams,Streaming Service,3000,Media,Sales call,2023-10-30,10,9,5,,ready_for_industry_assessment
+LEAD_0044,Rebecca Green,Waste Management,1100,Environmental,Webinar attendee,2024-01-08,10,7,8,,ready_for_industry_assessment
+LEAD_0045,Steven Chen,Robotics Company,75,Manufacturing,Referral,2024-01-07,8,8,8,,ready_for_industry_assessment
+LEAD_0046,Sophia Moretti,Wine Distribution,95,Retail,Inbound demo request,2024-01-11,8,10,8,,ready_for_industry_assessment
+LEAD_0047,Theo Papadopoulos,Construction Tech,150,Construction,Content download,2024-01-06,8,5,8,,ready_for_industry_assessment
+LEAD_0048,Ursula Hoffmann,Insurance Tech,130,InsurTech,LinkedIn outreach,2024-01-05,8,4,8,,ready_for_industry_assessment
+LEAD_0049,Victoria Summers,Transportation Logistics,550,Logistics,Sales call,2023-12-28,10,9,8,,ready_for_industry_assessment
+LEAD_0050,William Knight,Pharmaceutical Distribution,400,Healthcare,Referral,2024-01-04,8,8,8,,ready_for_industry_assessment
+LEAD_0051,Xander Brooks,Virtual Reality Studios,45,Entertainment,Inbound demo request,2024-01-03,6,10,8,,ready_for_industry_assessment
+LEAD_0052,Yasmine Aziz,Pet Care Services,28,Consumer Services,LinkedIn outreach,2024-01-02,6,4,8,,ready_for_industry_assessment
+LEAD_0053,Zachary Pierce,Office Furniture,175,Retail,Webinar attendee,2023-12-18,8,7,5,,ready_for_industry_assessment
+LEAD_0054,Amelia Davis,Cybersecurity Consulting,95,Cybersecurity,Sales call,2024-01-20,8,9,10,,ready_for_industry_assessment
+LEAD_0055,Bradley Foster,Cloud Storage,800,SaaS,Content download,2024-01-19,10,5,10,,ready_for_industry_assessment
+LEAD_0056,Chloe Mitchell,Supply Chain Analytics,60,Software,Referral,2024-01-18,8,8,10,,ready_for_industry_assessment
+LEAD_0057,Dominic Wheeler,Payment Processing,500,FinTech,Inbound demo request,2024-01-17,8,10,10,,ready_for_industry_assessment
+LEAD_0058,Evelyn Richardson,Human Resources Tech,70,HR Tech,LinkedIn outreach,2024-01-16,8,4,10,,ready_for_industry_assessment
+LEAD_0059,Franklin Hayes,Accounting Software,220,Software,Sales call,2024-01-15,8,9,10,,ready_for_industry_assessment
+LEAD_0060,Gina Reeves,E-commerce Platform,140,SaaS,Webinar attendee,2024-01-14,8,7,10,,ready_for_industry_assessment
+LEAD_0061,Harrison Scott,Commercial Real Estate,900,Real Estate,Content download,2024-01-13,10,5,8,,ready_for_industry_assessment
+LEAD_0062,Iris Wagner,Telecommunications Equipment,2000,Telecom,Referral,2024-01-12,10,8,8,,ready_for_industry_assessment
+LEAD_0063,Jerome Long,Logistics Optimization,85,Software,Inbound demo request,2024-01-11,8,10,8,,ready_for_industry_assessment
+LEAD_0064,Kennedy Owens,Environmental Monitoring,55,Climate Tech,LinkedIn outreach,2024-01-10,8,4,8,,ready_for_industry_assessment
+LEAD_0065,Lauren Blake,Medical Devices,450,Healthcare,Sales call,2024-01-09,8,9,8,,ready_for_industry_assessment
+LEAD_0066,Marcus Hunt,Venture Studio,35,Finance,Webinar attendee,2024-01-08,6,7,8,,ready_for_industry_assessment
+LEAD_0067,Natalie Stone,Fashion E-commerce,110,Retail,Content download,2024-01-07,8,5,8,,ready_for_industry_assessment
+LEAD_0068,Oscar Rivera,Warehouse Automation,300,Logistics,Referral,2024-01-06,8,8,8,,ready_for_industry_assessment
+LEAD_0069,Penny Walsh,Mental Health Platform,75,HealthTech,Inbound demo request,2024-01-05,8,10,8,,ready_for_industry_assessment
+LEAD_0070,Quinton Price,Database Software,250,Software,LinkedIn outreach,2024-01-04,8,4,8,,ready_for_industry_assessment
+LEAD_0071,Ruby Chen,Sustainable Fashion,85,Retail,Sales call,2024-01-03,8,9,8,,ready_for_industry_assessment
+LEAD_0072,Silas Brown,Financial Advisory,140,Finance,Webinar attendee,2024-01-02,8,7,8,,ready_for_industry_assessment
+LEAD_0073,Tara Gonzalez,Nutrition Tech,50,HealthTech,Content download,2024-01-01,6,5,8,,ready_for_industry_assessment
+LEAD_0074,Ulysses Morgan,Autonomous Vehicles,600,Automotive,Referral,2023-12-31,10,8,8,,ready_for_industry_assessment
+LEAD_0075,Veronica Adams,Commercial Cleaning,180,Business Services,Inbound demo request,2023-12-30,8,10,8,,ready_for_industry_assessment
+LEAD_0076,Walter Buchanan,Construction Management,320,Construction,LinkedIn outreach,2023-12-29,8,4,8,,ready_for_industry_assessment
+LEAD_0077,Ximena Flores,Gaming Studio,95,Entertainment,Sales call,2023-12-28,8,9,8,,ready_for_industry_assessment
+LEAD_0078,Yolanda Martinez,Customer Support Platform,110,SaaS,Webinar attendee,2023-12-27,8,7,8,,ready_for_industry_assessment
+LEAD_0079,Zachary Coleman,Landscaping Services,42,Services,Content download,2023-12-26,6,5,8,,ready_for_industry_assessment
+LEAD_0080,Audrey Powell,Dental Practice Management,150,Healthcare,Referral,2023-12-25,8,8,8,,ready_for_industry_assessment
+LEAD_0081,Bryson Hart,Climate Analytics,70,Climate Tech,Inbound demo request,2023-12-24,8,10,8,,ready_for_industry_assessment
+LEAD_0082,Cecilia Santos,Freight Forwarding,400,Logistics,LinkedIn outreach,2023-12-23,8,4,8,,ready_for_industry_assessment
+LEAD_0083,Daisy Newton,Wedding Planning Tech,38,Events,Sales call,2023-12-22,6,9,8,,ready_for_industry_assessment
+LEAD_0084,Ezra Fox,Veterinary Practice,65,Healthcare,Webinar attendee,2023-12-21,8,7,5,,ready_for_industry_assessment
+LEAD_0085,Finn O'Brien,Craft Beverage,85,Consumer,Content download,2023-12-20,8,5,5,,ready_for_industry_assessment
+LEAD_0086,Gemma Hart,Public Relations Firm,75,Marketing,Referral,2023-12-19,8,8,5,,ready_for_industry_assessment
+LEAD_0087,Harper Knight,Retail Inventory,140,Retail,Inbound demo request,2023-12-18,8,10,5,,ready_for_industry_assessment
+LEAD_0088,Iris Monroe,Corporate Training,110,EdTech,LinkedIn outreach,2023-12-17,8,4,5,,ready_for_industry_assessment
+LEAD_0089,Julian Parks,Hotel Management,250,Hospitality,Sales call,2023-12-16,8,9,5,,ready_for_industry_assessment
+LEAD_0090,Kevin Grant,Knowledge Management,125,Software,Webinar attendee,2023-12-15,8,7,5,,ready_for_industry_assessment
+LEAD_0091,Louisa Blake,Interior Design Services,28,Services,Content download,2023-12-14,6,5,5,,ready_for_industry_assessment
+LEAD_0092,Marcus Stewart,Cyber Insurance,220,Insurance,Referral,2023-12-13,8,8,5,,ready_for_industry_assessment
+LEAD_0093,Natasha Volkov,Import Export Trading,350,Trade,Inbound demo request,2023-12-12,8,10,5,,ready_for_industry_assessment
+LEAD_0094,Oliver Thorne,Museum Management,65,Cultural,LinkedIn outreach,2023-12-11,8,4,5,,ready_for_industry_assessment
+LEAD_0095,Priya Patel,Network Security,180,Cybersecurity,Sales call,2023-12-10,8,9,5,,ready_for_industry_assessment
+LEAD_0096,Quinn Murphy,Volunteer Management,40,NonProfit,Webinar attendee,2023-12-09,6,7,5,,ready_for_industry_assessment
+LEAD_0097,Raymond Grant,Logistics Tracking,300,Logistics,Content download,2023-12-08,8,5,5,,ready_for_industry_assessment
+LEAD_0098,Sophie Lawrence,Laboratory Information,170,Healthcare,Referral,2023-12-07,8,8,5,,ready_for_industry_assessment
+LEAD_0099,Tobias Wright,Vehicle Tracking,220,Automotive,Inbound demo request,2023-12-06,8,10,5,,ready_for_industry_assessment
+LEAD_0100,Uriel Reyes,Waste Reduction,95,Environmental,LinkedIn outreach,2023-12-05,8,4,5,,ready_for_industry_assessment

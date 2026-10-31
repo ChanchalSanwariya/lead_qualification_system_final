@@ -1,0 +1,11 @@
+lead_id,name,company,subject,email_body,generation_status
+LEAD_0011,Test_HighValueMatch,Perfect Fit Enterprise,Quick question about Perfect Fit Enterprise's onboarding,"Hi [Name],
+
+I noticed Perfect Fit Enterprise recently requested a demo. I wanted to personally follow up to see if you're looking to streamline your current onboarding workflow.
+
+Our workflow automation platform helps SaaS companies like yours reduce manual onboarding tasks by 40% without adding headcount.
+
+Would you be open to a 15-minute call next week to discuss your current process?
+
+Best regards,
+[Your Name]",completed

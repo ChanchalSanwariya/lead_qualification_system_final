@@ -1,0 +1,21 @@
+lead_id,industry_rating,reasoning,confidence,needs_review,assessment_status
+LEAD_0001,,Skipped due to data-quality issues.,low,True,skipped
+LEAD_0002,5.0,"Enterprise Software companies typically have complex internal processes and integration needs, making workflow automation plausible but not uniquely compelling without specific pain points.",medium,True,completed
+LEAD_0003,3.0,Consulting is service-oriented with limited manufacturing or logistics operations; workflow automation fit is weak without evidence of internal process bottlenecks.,low,True,completed
+LEAD_0004,10.0,"Manufacturing has well-documented automation use cases: production line coordination, supply chain management, quality control workflows, and inventory tracking.",high,False,completed
+LEAD_0005,7.0,"SaaS companies internally benefit from workflow automation for customer onboarding, ticket routing, and usage analytics, though they already use many automation tools.",high,False,completed
+LEAD_0006,,Skipped due to data-quality issues.,low,True,skipped
+LEAD_0007,5.0,Unknown Sector provides no industry context; rating defaults to unclear evidence per rules. Cannot assess fit without knowing the sector.,low,True,completed
+LEAD_0008,7.0,"SaaS startups commonly need workflow automation for lead nurturing, customer onboarding, and internal ops scaling during rapid growth phases.",high,False,completed
+LEAD_0009,7.0,"Finance industry has strong automation use cases: compliance reporting, invoice processing, client onboarding, and regulatory workflow management.",high,False,completed
+LEAD_0010,,Skipped due to data-quality issues.,low,True,skipped
+LEAD_0011,10.0,SaaS industry is the core market for workflow automation software; these companies have the most immediate and obvious need for the product.,high,False,completed
+LEAD_0012,5.0,"Agriculture has some automation potential (equipment tracking, supply chain), but it is a niche fit compared to manufacturing or SaaS, and evidence is insufficient without operation details.",medium,True,completed
+LEAD_0013,,Skipped due to data-quality issues.,low,True,skipped
+LEAD_0014,,Skipped due to data-quality issues.,low,True,skipped
+LEAD_0015,,Skipped due to data-quality issues.,low,True,skipped
+LEAD_0016,7.0,"Logistics involves complex routing, shipment tracking, and delivery coordination workflows that are prime candidates for automation software.",high,False,completed
+LEAD_0017,10.0,"SaaS companies selling to other SaaS businesses have the strongest product-market fit for workflow automation, as they understand the operational needs and have the budget for tooling.",high,False,completed
+LEAD_0018,3.0,"Failed Startup suggests the company is no longer operating or growing; without active operations, workflow automation needs are irrelevant.",low,True,completed
+LEAD_0019,5.0,"Government sector has automation potential (permitting, permits, internal approvals), but sales cycles are long and legacy systems are common, making fit uncertain without specific context.",medium,True,completed
+LEAD_0020,5.0,"Retail SMBs have some automation needs (inventory, POS integration), but the scale is often too small to justify enterprise workflow software, and needs are mixed.",medium,True,completed

@@ -1,0 +1,46 @@
+lead_id,name,company,subject,email_body,generation_status
+LEAD_0006,Frank Liu,Healthcare Systems Ltd,Quick question about Healthcare Systems Ltd,"Hi Frank,
+
+I noticed Healthcare Systems Ltd is navigating the evolving healthcare landscape. I work with mid-market healthcare companies to streamline administrative workflows, which can free up time for patient care.
+
+Would you be open to a brief conversation about how workflow automation might support your team's efficiency?
+
+Best regards,
+[Your Name]
+[Your Company]",completed
+LEAD_0011,Karen Miller,InsurancePro,Streamlining operations at InsurancePro,"Hi Karen,
+
+I came across InsurancePro and saw the important work you do in the insurance sector. Many insurance firms I work with have found that automating routine processes helps reduce manual effort and improve accuracy.
+
+I'd like to learn more about your current workflows and see if there's a fit. Would you have 10 minutes for a quick chat?
+
+Best,
+[Your Name]
+[Your Company]",completed
+LEAD_0030,Derek Johnson,Cloud Infrastructure,Following up on your demo request,"Hi Derek,
+
+Thank you for requesting a demo of our workflow automation platform. I've prepared a brief overview tailored to SaaS companies.
+
+I'd like to schedule a 20-minute session at your convenience to show you how it can fit your needs. Please let me know what times work best for you this week.
+
+Best regards,
+[Your Name]
+[Your Company]",completed
+LEAD_0057,Dominic Wheeler,Payment Processing,Demo: Workflow automation for FinTech,"Hi Dominic,
+
+Thank you for your interest in workflow automation for your FinTech business. I've put together a short demo focusing on the challenges common in financial processing.
+
+I'm available for a 20-minute call this week. Please let me know a time that works best for you.
+
+Best regards,
+[Your Name]
+[Your Company]",completed
+LEAD_0074,Ulysses Morgan,Autonomous Vehicles,Automation insights for Autonomous Vehicles,"Hi Ulysses,
+
+I saw your referral and learned about Autonomous Vehicles' work in the automotive space. Companies in this sector often deal with complex coordination and data management challenges.
+
+I'd like to briefly discuss how workflow automation could support your operations. Would you be open to a short call?
+
+Best regards,
+[Your Name]
+[Your Company]",completed

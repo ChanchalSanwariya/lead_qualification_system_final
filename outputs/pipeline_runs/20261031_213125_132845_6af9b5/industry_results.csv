@@ -1,0 +1,101 @@
+lead_id,industry_rating,reasoning,confidence,needs_review,assessment_status
+LEAD_0001,7,"SaaS companies routinely automate customer onboarding, billing, and internal tool integration, providing clear workflow automation use cases.",high,False,completed
+LEAD_0002,7,"SaaS companies benefit from automating lead nurturing, customer success workflows, and operational scaling processes.",high,False,completed
+LEAD_0003,10,"Financial institutions have extensive compliance, reporting, and transaction processing workflows that are prime candidates for automation.",high,False,completed
+LEAD_0004,7,"Early-stage SaaS companies typically need automation for growth operations, though specific use cases are not detailed.",medium,False,completed
+LEAD_0005,7,"Retailers commonly automate inventory management, order processing, and customer loyalty workflows.",high,False,completed
+LEAD_0006,10,"Healthcare organizations have high regulatory compliance, patient onboarding, and administrative workflow automation needs.",high,False,completed
+LEAD_0007,10,"Manufacturing involves complex supply chain, production scheduling, and quality control workflows that benefit significantly from automation.",high,False,completed
+LEAD_0008,7,"EdTech institutions automate enrollment, grading workflows, and student communication processes.",high,False,completed
+LEAD_0009,10,"Logistics companies rely on routing, tracking, and inventory management workflows that are highly automatable.",high,False,completed
+LEAD_0010,5,"Marketing agencies have some automatable tasks, but workflow automation fit is less central compared to operational industries.",medium,False,completed
+LEAD_0011,10,"Insurance companies have extensive policy processing, claims workflow, and compliance documentation automation needs.",high,False,completed
+LEAD_0012,10,"FinTech startups inherently deal with transaction processing, compliance, and user onboarding workflows that are core automation candidates.",high,False,completed
+LEAD_0013,7,"Agriculture operations involve planting, harvesting, and supply chain scheduling workflows that can be automated, though fit is moderately specific.",medium,False,completed
+LEAD_0014,5,"Enterprise software buyers may have automation needs, but without specific industry context, the fit is unclear.",medium,False,completed
+LEAD_0015,3,"Local restaurants have limited, fragmented workflows; automation fit is weak without evidence of operational scale.",low,True,completed
+LEAD_0016,7,Pharmaceutical research involves complex regulatory and documentation workflows that can benefit from automation.,high,False,completed
+LEAD_0017,5,"Consulting firms have variable workflows; automation fit depends on firm size and service delivery model, which is not specified.",medium,False,completed
+LEAD_0018,5,"Government agencies have workflow automation potential, but scope and readiness vary widely without provided details.",medium,False,completed
+LEAD_0019,10,"Cybersecurity firms handle high volumes of incident response, compliance reporting, and tool integration workflows that are ideal for automation.",high,False,completed
+LEAD_0020,7,"Energy companies have operational monitoring, reporting, and maintenance scheduling workflows that benefit from automation.",high,False,completed
+LEAD_0021,5,"Event planning has some automatable tasks, but the industry is project-based and variable, making automation fit unclear.",medium,False,completed
+LEAD_0022,7,"Real estate platforms automate lead nurturing, property listing management, and transaction coordination workflows.",high,False,completed
+LEAD_0023,7,"Fashion retailers automate inventory tracking, order fulfillment, and seasonal collection workflows similar to other retail operations.",high,False,completed
+LEAD_0024,7,"Analytics firms automate data pipeline setup, reporting schedules, and client dashboard workflows.",high,False,completed
+LEAD_0025,7,"Travel technology companies automate booking workflows, itinerary management, and supplier coordination processes.",high,False,completed
+LEAD_0026,7,"Education institutions have clear workflow automation use cases including student enrollment processing, grading, attendance tracking, and administrative task automation.",high,False,completed
+LEAD_0027,7,"Supply chain companies benefit from automation in inventory management, order processing, shipment tracking, and supplier coordination.",high,False,completed
+LEAD_0028,7,"Legal services firms have clear automation use cases for document review, case management, client onboarding, and billing processes.",high,False,completed
+LEAD_0029,7,"Media & Entertainment companies can automate content publishing workflows, asset management, rights management, and distribution processes.",high,False,completed
+LEAD_0030,5,"SaaS companies primarily use workflow tools internally; while they benefit from automation, they are less likely to be external customers for workflow automation software.",medium,False,completed
+LEAD_0031,5,"Software development companies have mixed fit; while they may use internal workflow tools, they are not typical external customers for general workflow automation software.",medium,False,completed
+LEAD_0032,7,"Telecommunications companies have clear automation use cases for network management, customer service workflows, billing systems, and field service coordination.",high,False,completed
+LEAD_0033,3,Beauty & Cosmetics consumer industry has limited obvious workflow automation use cases beyond basic administrative processes; industry-specific needs are less defined.,medium,False,completed
+LEAD_0034,10,"Oil & Gas corporations have extensive workflow automation needs including pipeline monitoring, safety compliance, equipment maintenance scheduling, and resource allocation optimization.",high,False,completed
+LEAD_0035,7,"Luxury hotels benefit from automation in reservation systems, guest services workflows, housekeeping coordination, and inventory management.",high,False,completed
+LEAD_0036,7,"Property management companies have clear automation use cases for tenant screening, lease processing, maintenance requests, and rent collection.",high,False,completed
+LEAD_0037,5,AI/ML labs have unclear fit for workflow automation software; their primary focus is research and development rather than business process automation.,medium,False,completed
+LEAD_0038,5,Venture Capital funds have limited obvious workflow automation use cases; their primary operations involve investment analysis and portfolio management rather than business process automation.,medium,False,completed
+LEAD_0039,5,"Blockchain/Cryptocurrency startups have unclear fit; their operations are typically focused on development, trading, and ecosystem growth rather than business process automation.",medium,False,completed
+LEAD_0040,7,"Sports management companies benefit from automation in athlete contracts, scheduling, performance tracking, and fan engagement workflows.",high,False,completed
+LEAD_0041,10,"Renewable Energy corporations have extensive workflow automation needs including grid management, equipment maintenance, project planning, and performance monitoring.",high,False,completed
+LEAD_0042,10,"Biotechnology research has strong automation use cases including lab sample tracking, experiment documentation, regulatory compliance, and research data management.",high,False,completed
+LEAD_0043,7,"Streaming services benefit from automation in content metadata management, subscriber workflows, encoding processes, and analytics reporting.",high,False,completed
+LEAD_0044,7,"Waste management companies have clear automation use cases for route optimization, scheduling, customer service workflows, and regulatory compliance tracking.",high,False,completed
+LEAD_0045,7,"Robotics companies benefit from automation in production workflows, quality control, supply chain integration, and system monitoring.",high,False,completed
+LEAD_0046,5,Wine distribution has limited obvious workflow automation use cases beyond basic logistics and inventory management; industry-specific needs are less defined.,medium,False,completed
+LEAD_0047,10,"Construction tech companies have extensive workflow automation needs including project management, subcontractor coordination, material tracking, and compliance documentation.",high,False,completed
+LEAD_0048,7,"Insurance tech companies have clear automation use cases for policy processing, claims management, customer onboarding, and regulatory compliance workflows.",high,False,completed
+LEAD_0049,7,"Transportation logistics companies have clear automation use cases for route optimization, fleet management, shipment tracking, and delivery coordination.",high,False,completed
+LEAD_0050,7,"Pharmaceutical distribution has clear automation use cases for cold chain monitoring, order processing, inventory management, and regulatory compliance.",high,False,completed
+LEAD_0051,7,"Entertainment industry benefits from workflow automation for content pipelines, scheduling, and asset management, though creative processes limit full automation.",high,False,completed
+LEAD_0052,5,Consumer Services has variable workflows; automation potential exists for scheduling and client management but is not universally established.,medium,True,completed
+LEAD_0053,5,"Retail for office furniture has moderate automation potential for order processing and inventory, but industry-specific workflows are limited.",medium,True,completed
+LEAD_0054,10,"Cybersecurity consulting generates high-volume repetitive tasks (reporting, compliance checks, incident documentation) ideal for workflow automation.",high,False,completed
+LEAD_0055,7,"SaaS companies rely heavily on internal workflows for customer onboarding, deployment, and support, making them strong candidates for automation tools.",high,False,completed
+LEAD_0056,7,"Software industry benefits from automation in CI/CD pipelines, issue tracking, and internal process management, though some workflows remain code-dependent.",high,False,completed
+LEAD_0057,10,"FinTech payment processing involves high-volume transaction workflows, compliance reporting, and reconciliation tasks that are highly automatable.",high,False,completed
+LEAD_0058,7,"HR Tech companies have extensive automation needs for recruiting, onboarding, and employee lifecycle management, making them strong fits.",high,False,completed
+LEAD_0059,10,"Accounting software industry has dense, rule-based workflows for bookkeeping, tax preparation, and financial reporting that automation directly enhances.",high,False,completed
+LEAD_0060,7,"E-commerce platforms benefit from automation in order fulfillment, inventory management, and customer support workflows, though peak load variability exists.",high,False,completed
+LEAD_0061,5,"Commercial Real Estate has workflows for lease management and transactions, but many remain relationship-driven with limited standardization for automation.",medium,True,completed
+LEAD_0062,5,"Telecommunications equipment manufacturing has some automatable assembly and logistics workflows, but hardware-focused operations limit software automation fit.",medium,True,completed
+LEAD_0063,7,"Software companies in logistics optimization have strong automation potential for routing, scheduling, and data pipeline management.",high,False,completed
+LEAD_0064,5,"Climate Tech environmental monitoring involves data collection and analysis workflows, but hardware integration and field operations reduce pure software automation fit.",medium,True,completed
+LEAD_0065,10,"Healthcare medical devices require strict regulatory workflows, documentation, and tracking that automation directly supports and streamlines.",high,False,completed
+LEAD_0066,5,"Venture Studio finance has deal-flow and portfolio management workflows, but these are highly variable and relationship-dependent, limiting automation standardization.",medium,True,completed
+LEAD_0067,5,"Retail fashion e-commerce has order and inventory workflows, but trend-driven product cycles and design processes limit automation effectiveness.",medium,True,completed
+LEAD_0068,10,"Logistics warehouse automation directly aligns with workflow automation software for routing, inventory tracking, and operational task management.",high,False,completed
+LEAD_0069,7,"HealthTech mental health platforms benefit from appointment scheduling, patient workflow management, and documentation automation, though therapeutic processes limit full automation.",high,False,completed
+LEAD_0070,10,"Database software companies generate extensive internal workflows for schema management, backup procedures, and performance monitoring that are highly automatable.",high,False,completed
+LEAD_0071,5,"Sustainable fashion retail has similar automation challenges to general retail e-commerce with additional supply chain complexity, but limited standardization.",medium,True,completed
+LEAD_0072,5,"Financial advisory has client portfolio workflows and reporting, but highly personalized advice and compliance complexity limit automation standardization.",medium,True,completed
+LEAD_0073,7,"HealthTech nutrition platforms benefit from patient tracking, meal planning workflows, and data integration automation, though individual health variability exists.",high,False,completed
+LEAD_0074,10,"Autonomous vehicles industry involves complex sensor data processing, routing algorithms, and safety workflows that automation directly supports and optimizes.",high,False,completed
+LEAD_0075,5,"Commercial cleaning has scheduling and task management workflows, but service delivery variability and client-site constraints limit automation effectiveness.",medium,True,completed
+LEAD_0076,7,"Construction involves repetitive project management, scheduling, and resource allocation tasks that workflow automation can streamline.",high,False,completed
+LEAD_0077,5,"Gaming studios have creative pipelines and community management, but workflow automation fit is less direct without specific operational details.",medium,True,completed
+LEAD_0078,7,"SaaS companies inherently benefit from automating customer onboarding, billing, and internal process management.",high,False,completed
+LEAD_0079,7,"Landscaping services involve scheduling, client communication, and job tracking that automation can significantly improve.",high,False,completed
+LEAD_0080,10,"Dental practice management directly benefits from automating appointment scheduling, patient records, billing, and compliance workflows.",high,False,completed
+LEAD_0081,5,Climate tech involves data analysis and research; workflow automation fit depends on specific operational processes not detailed here.,medium,True,completed
+LEAD_0082,7,"Freight forwarding involves complex shipment tracking, documentation, and coordination that automation can streamline.",high,False,completed
+LEAD_0083,5,"Wedding planning has creative and vendor coordination elements, but workflow automation fit is niche without more operational detail.",medium,True,completed
+LEAD_0084,10,"Veterinary practices have clear automation needs for appointment scheduling, medical records, billing, and inventory management.",high,False,completed
+LEAD_0085,5,"Craft beverage production involves some batch tracking and sales, but workflow automation fit is unclear without knowing production scale or distribution model.",medium,True,completed
+LEAD_0086,5,Public relations firms rely on creative campaigns and media relations; workflow automation fit is limited to administrative tasks only.,medium,True,completed
+LEAD_0087,7,"Retail inventory management benefits from automating stock tracking, reordering, and supplier coordination.",high,False,completed
+LEAD_0088,7,"Corporate training involves course delivery, progress tracking, and employee management that automation can streamline.",high,False,completed
+LEAD_0089,7,"Hotel management involves reservation systems, housekeeping coordination, and guest services that automation can improve.",high,False,completed
+LEAD_0090,5,Knowledge management software focuses on information organization; workflow automation fit depends on specific enterprise processes.,medium,True,completed
+LEAD_0091,5,"Interior design services involve client projects and vendor coordination, but workflow automation fit is niche without operational detail.",medium,True,completed
+LEAD_0092,5,"Cyber insurance underwriting and claims processing have some automatable elements, but the industry is risk-focused rather than operationally process-heavy.",medium,True,completed
+LEAD_0093,5,"Import/export trading involves shipment logistics and documentation, but workflow automation fit varies significantly by business size and scope.",medium,True,completed
+LEAD_0094,5,"Museum management involves curation, exhibition planning, and visitor services; workflow automation fit is limited to administrative tasks.",medium,True,completed
+LEAD_0095,7,"Network security involves threat monitoring, incident response, and compliance reporting that automation can significantly improve.",high,False,completed
+LEAD_0096,7,"Volunteer management involves scheduling, communication, and task coordination that automation can streamline.",high,False,completed
+LEAD_0097,7,"Logistics tracking benefits from automated status updates, exception handling, and client reporting.",high,False,completed
+LEAD_0098,10,"Laboratory information management involves sample tracking, result reporting, and compliance that are highly suitable for workflow automation.",high,False,completed
+LEAD_0099,7,"Vehicle tracking involves fleet management, route optimization, and client reporting that automation can improve.",high,False,completed
+LEAD_0100,5,Waste reduction initiatives vary widely; workflow automation fit depends on specific monitoring and processing operations not detailed here.,medium,True,completed

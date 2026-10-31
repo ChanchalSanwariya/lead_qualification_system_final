@@ -1,0 +1,41 @@
+lead_id,name,company,subject,email_body,generation_status
+LEAD_0006,Frank Liu,Healthcare Systems Ltd,Workflow automation for Healthcare Systems Ltd,"Hi Frank,
+
+I noticed Healthcare Systems Ltd operates in the healthcare sector. I specialize in workflow automation solutions for mid-market businesses and wanted to reach out.
+
+Would you be open to learning how automation could support your team's operations?
+
+Best regards,
+[Your Name]",completed
+LEAD_0011,Karen Miller,InsurancePro,Streamlining workflows at InsurancePro,"Hi Karen,
+
+I came across InsurancePro and saw you're in the insurance industry. I help mid-market companies automate routine workflows to improve efficiency.
+
+Would you be interested in hearing about how this might apply to your work?
+
+Best regards,
+[Your Name]",completed
+LEAD_0030,Derek Johnson,Cloud Infrastructure,Following up on your demo request,"Hi Derek,
+
+You requested a demo of our workflow automation platform. I'd be happy to schedule a time to walk you through the features that would be most relevant for your SaaS business.
+
+Please let me know what time works best for you over the next week.
+
+Best regards,
+[Your Name]",completed
+LEAD_0057,Dominic Wheeler,Payment Processing,Workflow automation for Payment Processing,"Hi Dominic,
+
+I see Payment Processing is in the FinTech space. I work with mid-market businesses to automate their operational workflows.
+
+Would you be open to a brief conversation about how automation could support your team's processes?
+
+Best regards,
+[Your Name]",completed
+LEAD_0074,Ulysses Morgan,Autonomous Vehicles,Workflow automation for Autonomous Vehicles,"Hi Ulysses,
+
+I noticed your work in the autonomous vehicles industry. I help mid-market companies automate their business workflows to improve operational efficiency.
+
+Would you be interested in learning more about how this technology could apply to your sector?
+
+Best regards,
+[Your Name]",completed
