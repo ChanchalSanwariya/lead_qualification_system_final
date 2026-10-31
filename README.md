@@ -1,278 +1,86 @@
 # Lead Intelligence Studio
 
-A local Streamlit-based application that helps businesses analyze, qualify, rank, and engage B2B leads using rule-based scoring and NVIDIA AI-powered industry assessment.
+**An AI-powered B2B Lead Qualification and Prioritization System**
 
-## 1. Project Overview
+Lead Intelligence Studio automates lead evaluation using rule-based scoring and NVIDIA Nemotron AI. It processes leads in batches, calculates qualification scores, ranks qualified leads, and generates personalized outreach email drafts.
 
-Lead Intelligence Studio automates the lead qualification process.
+## 1. Setup and Run
 
-It takes lead data in CSV format and performs the following steps:
+**Prerequisites:** Python, project dependencies, and a valid NVIDIA API key.
 
-1. Loads and validates lead data.
-2. Evaluates company size, lead source, and interaction recency.
-3. Uses NVIDIA AI to assess industry fit.
-4. Calculates a weighted qualification score.
-5. Classifies leads as Qualified, Review, or Rejected.
-6. Ranks qualified leads by score.
-7. Generates personalized outreach email drafts for qualified leads.
-8. Saves pipeline results for future analysis.
+1. Clone or download the project and open its root folder in VS Code.
+2. Install dependencies:
 
-The application runs locally using Streamlit.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 2. Project Structure
+3. Create a `.env` file using `.env.example` as a reference and configure:
 
-```text
-lead_qualification_system_final/
-│
-├── data/
-│   └── input/                 # Sample and testing CSV datasets
-│
-├── docs/                      # Project documentation
-│
-├── landing/                   # Original uploaded CSV files
-│
-├── outputs/
-│   └── pipeline_runs/         # Saved pipeline results
-│
-├── src/
-│   ├── industry.py            # AI-based industry assessment
-│   ├── outreach.py            # Outreach email generation
-│   ├── pipeline.py            # End-to-end pipeline
-│   ├── rubric.py              # Rule-based evaluation
-│   ├── scoring.py             # Weighted scoring and decisions
-│   └── utils.py               # Shared utility functions
-│
-├── test/                      # Testing scripts
-│
-├── .env                       # Local environment configuration
-├── .env.example               # Example configuration
-├── app.py                     # Streamlit application
-├── requirements.txt           # Project dependencies
-└── README.md                  # Project guide
-```
+   ```env
+   NVIDIA_API_KEY=your_nvidia_api_key
+   ```
 
-## 3. Prerequisites
+4. Start the application:
 
-Before running the project, make sure you have:
+   ```bash
+   streamlit run app.py
+   ```
 
-- Python installed
-- VS Code or another Python editor
-- NVIDIA API key
-- Project dependencies installed
+5. Open `http://localhost:8501` in your browser.
 
-## 4. Project Setup
+## 2. How to Use
 
-### Step 1: Open the project
+- **Dashboard:** View lead statistics, charts, and results from previous pipeline runs. Select an existing run to inspect its saved analysis without uploading the file again.
+- **Upload Leads:** Upload a new CSV to start an independent pipeline run. Original uploads and previous results are preserved.
+- **Priority Queue:** View qualified leads ranked by score.
+- **Outreach:** Review AI-generated personalized email drafts.
+- **Run History:** Browse previously executed pipeline runs.
 
-Open the project folder in VS Code.
+## 3. Input Data
 
-### Step 2: Install dependencies
+CSV files must contain these columns:
 
-If you are using `uv`, run:
+`name`, `company`, `company_size`, `industry`, `source`, `last_interaction_date`
 
-```powershell
-uv sync
-```
+`lead_id` is optional and generated when missing. Provided IDs must be valid and unique.
 
-Alternatively, install dependencies from `requirements.txt`:
+## 4. Qualification Rubric
 
-```powershell
-pip install -r requirements.txt
-```
+Leads receive a weighted score from 1–10 using four factors: Company Size (30%), Industry Fit (25%), Lead Source (30%), and Interaction Recency (15%). Industry Fit is assessed using NVIDIA Nemotron AI, while the other factors use predefined business rules.
 
-### Step 3: Configure the API key
+| Score   | Decision  |
+| ------- | --------- |
+| 8–10    | Qualified |
+| 5–7.99  | Review    |
+| Below 5 | Rejected  |
 
-Create your local `.env` file using `.env.example` as a reference.
+Missing or invalid critical data and AI review flags can override the score and place a lead in Review.
 
-Add your NVIDIA API key:
+## 5. Outputs
 
-```env
-NVIDIA_API_KEY=your_nvidia_api_key
-```
+Each pipeline run saves results under `outputs/pipeline_runs/`:
 
-Keep your actual API key private. Never upload `.env` to GitHub or share it publicly.
+- `scoring_results.csv` – Qualification score, decision, reasoning, and priority rank.
+- `industry_results.csv` – AI industry assessment.
+- `rubric_results.csv` – Rule-based evaluation.
+- `outreach_results.csv` – Generated email drafts.
+- `run_summary.csv` – Aggregated pipeline statistics.
 
-Make sure the other configuration values in `.env` match the settings expected by the project.
+Original uploaded CSV files are stored under `landing/`.
 
-## 5. Run the Application
+## 6. Reliability and Error Handling
 
-Open the VS Code terminal in the project root directory.
+The pipeline processes leads in batches rather than making one API call per lead. API failures and rate limits are handled using retries with exponential backoff. Input validation checks missing columns, empty files, and invalid or duplicate lead IDs. Failed AI assessments and incomplete data are handled through review or failure statuses.
 
-Run:
+## 7. Known Limitations
 
-```powershell
-uv run streamlit run app.py
-```
+- Industry assessments and outreach messages depend on LLM responses and may require human review.
+- AI-generated emails are drafts, not messages automatically sent to prospects.
+- Missing or invalid business information may result in a Review decision.
+- API availability, rate limits, and network connectivity can affect processing time.
+- Company size and lead-source ratings use predefined scoring rules.
 
-Streamlit will start the application.
+**Technology:** Python · Pandas · Streamlit · NVIDIA Nemotron API
 
-Open the local URL shown in the terminal, usually:
-
-```text
-http://localhost:8501
-```
-
-## 6. How to Use the Application
-
-The application contains five main sections.
-
-### A. Dashboard
-
-The Dashboard provides an overview of a selected pipeline run.
-
-You can view:
-
-- Total leads processed
-- Qualified leads
-- Leads requiring review
-- Rejected leads
-- Average lead score
-- Lead distribution and scoring charts
-- Top-priority leads
-
-**How to view old results:**
-
-1. Open the Dashboard.
-2. Find the pipeline run selector.
-3. Select an existing run from the available runs.
-4. The dashboard will display the saved results for that run.
-
-You do not need to upload the same CSV again to view an existing run.
-
-### B. Upload Leads
-
-Use this section when you want to analyze a new CSV file.
-
-Steps:
-
-1. Open **Upload Leads**.
-2. Select your CSV file.
-3. Review the uploaded data preview.
-4. Start the pipeline.
-5. Wait for validation, scoring, industry assessment, and outreach generation to finish.
-6. Review the generated summary.
-
-Each upload creates a separate pipeline run. Previous runs are preserved and are not intentionally overwritten.
-
-The original uploaded CSV is stored in the `landing/` directory.
-
-### C. Priority Queue
-
-This section displays qualified leads in priority order.
-
-You can review lead details, qualification scores, and reasoning to identify which leads should receive attention first.
-
-### D. Outreach
-
-This section displays the generated outreach email drafts for qualified leads.
-
-You can review the email subject and body before using them.
-
-**Important:** AI-generated emails are drafts. Review factual claims and personalization before sending them to anyone.
-
-### E. Run History
-
-Use this section to browse previously saved pipeline runs and review their execution results.
-
-Each run has its own output directory, making it easier to compare different uploads and analyses.
-
-## 7. Understanding Saved Results
-
-Pipeline results are stored under:
-
-```text
-outputs/pipeline_runs/
-```
-
-Each run has a separate folder containing files such as:
-
-| File                   | Purpose                               |
-| ---------------------- | ------------------------------------- |
-| `rubric_results.csv`   | Rule-based evaluation results         |
-| `industry_results.csv` | AI-based industry assessment          |
-| `scoring_results.csv`  | Final scores, decisions, and rankings |
-| `outreach_results.csv` | Generated outreach email drafts       |
-| `run_summary.csv`      | Overall pipeline summary              |
-
-The original uploaded CSV is stored separately under `landing/`.
-
-**To inspect a previous result manually:** Open the corresponding run folder and view its CSV files in VS Code or Excel.
-
-## 8. Lead Qualification Logic
-
-The application uses a weighted scoring model.
-
-| Evaluation factor   |   Weight |
-| ------------------- | -------: |
-| Company Size        |      30% |
-| Industry Fit        |      25% |
-| Lead Source         |      30% |
-| Interaction Recency |      15% |
-| **Total**           | **100%** |
-
-The final weighted score determines the lead's qualification decision.
-
-| Score      | Decision  |
-| ---------- | --------- |
-| 8.00–10.00 | Qualified |
-| 5.00–7.99  | Review    |
-| Below 5.00 | Rejected  |
-
-Certain missing or invalid data and AI assessment flags can override the score and place a lead in Review.
-
-## 9. Input CSV Format
-
-The CSV should contain these required columns:
-
-| Column                  | Description                  |
-| ----------------------- | ---------------------------- |
-| `name`                  | Lead's name                  |
-| `company`               | Company name                 |
-| `company_size`          | Number of employees          |
-| `industry`              | Company's industry           |
-| `source`                | How the lead was acquired    |
-| `last_interaction_date` | Date of the last interaction |
-
-The `lead_id` column is optional. If it is not provided, the application generates lead IDs. If provided, IDs must be valid and unique.
-
-## 10. Testing
-
-Test scripts are available in the `test/` directory.
-
-For example, to run the outreach test:
-
-```powershell
-uv run python -m test.test_outreach
-```
-
-Run commands from the project root directory so Python can locate the `src` package.
-
-## 11. Important Notes
-
-- Keep your `.env` file private.
-- Use the expected CSV column names.
-- Review generated email drafts before sending.
-- Do not manually modify saved pipeline results if you want to preserve the original run output.
-- Each new upload should create a separate run.
-- Previously saved results can be viewed without running the pipeline again.
-
-## 12. Quick Start
-
-For someone using the project for the first time:
-
-```powershell
-uv sync
-uv run streamlit run app.py
-```
-
-Then open `http://localhost:8501`.
-
-- To see previous analysis: Go to **Dashboard** and select an existing run.
-- To analyze new leads: Go to **Upload Leads** and upload a CSV.
-- To see ranked qualified leads: Open **Priority Queue**.
-- To review generated emails: Open **Outreach**.
-- To browse previous executions: Open **Run History**.
-
----
-
-**Lead Intelligence Studio — From raw lead data to actionable sales priorities.**
+**Project Goal:** Transform raw lead data into actionable sales priorities.
